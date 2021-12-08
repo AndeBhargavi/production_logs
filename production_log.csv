@@ -1,0 +1,176 @@
+D, [2021-04-16T06:20:20.333347 #1422] DEBUG -- :   ^[[1m^[[35m (1.8ms)^[[0m  ^[[1m^[[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@$
+D, [2021-04-16T06:20:20.333964 #1422] DEBUG -- :   ^[[1m^[[35m (0.2ms)^[[0m  ^[[1m^[[35mCREATE DATABASE `entersoft_website_production` DEFAUL$
+D, [2021-04-16T06:20:52.949142 #1432] DEBUG -- :   ^[[1m^[[35m (0.3ms)^[[0m  ^[[1m^[[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@$
+D, [2021-04-16T06:20:53.013798 #1432] DEBUG -- :   ^[[1m^[[35m (24.5ms)^[[0m  ^[[1m^[[35mCREATE TABLE `schema_migrations` (`version` varchar($
+D, [2021-04-16T06:20:53.037162 #1432] DEBUG -- :   ^[[1m^[[35m (20.6ms)^[[0m  ^[[1m^[[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(2$
+D, [2021-04-16T06:20:53.037706 #1432] DEBUG -- :   ^[[1m^[[35m (0.1ms)^[[0m  ^[[1m^[[34mSELECT GET_LOCK('4896858997189963020', 0)^[[0m
+D, [2021-04-16T06:20:53.085429 #1432] DEBUG -- :   ^[[1m^[[35m (0.3ms)^[[0m  ^[[1m^[[34mSELECT `schema_migrations`.`version` FROM `schema_mig$
+D, [2021-04-16T06:20:53.092498 #1432] DEBUG -- :   ^[[1m^[[36mActiveRecord::InternalMetadata Load (0.2ms)^[[0m  ^[[1m^[[34mSELECT  `ar_intern$
+D, [2021-04-16T06:20:53.096089 #1432] DEBUG -- :   ^[[1m^[[35m (0.1ms)^[[0m  ^[[1m^[[35mBEGIN^[[0m
+D, [2021-04-16T06:20:53.097360 #1432] DEBUG -- :   ^[[1m^[[36mActiveRecord::InternalMetadata Create (0.3ms)^[[0m  ^[[1m^[[32mINSERT INTO `ar_$
+D, [2021-04-16T06:20:53.101722 #1432] DEBUG -- :   ^[[1m^[[35m (4.1ms)^[[0m  ^[[1m^[[35mCOMMIT^[[0m
+D, [2021-04-16T06:20:53.101983 #1432] DEBUG -- :   ^[[1m^[[35m (0.1ms)^[[0m  ^[[1m^[[34mSELECT RELEASE_LOCK('4896858997189963020')^[[0m
+I, [2021-04-16T06:44:58.901909 #19805]  INFO -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf] Started GET "/" for 43.228.95.58 at 2021-04-16 06:44$
+I, [2021-04-16T06:44:58.904794 #19805]  INFO -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf] Processing by HomeController#index as HTML
+I, [2021-04-16T06:44:58.912489 #19805]  INFO -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf]   Rendering home/index.html.erb within layouts/appli$
+I, [2021-04-16T06:44:58.916016 #19805]  INFO -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf]   Rendered home/index.html.erb within layouts/applic$
+I, [2021-04-16T06:45:08.194791 #19805]  INFO -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf] Completed 500 Internal Server Error in 9290ms
+F, [2021-04-16T06:45:08.195830 #19805] FATAL -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf]
+F, [2021-04-16T06:45:08.195881 #19805] FATAL -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf] ActionView::Template::Error (Unexpected token: keywo$
+F, [2021-04-16T06:45:08.196059 #19805] FATAL -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf]     38:  <script src="/assets/script.js"></script>
+[b2770bcb-7563-4fe7-8376-9c32628d83bf]     39:  <%= csrf_meta_tags %>
+[b2770bcb-7563-4fe7-8376-9c32628d83bf]     40:  <%= csp_meta_tag %>
+[b2770bcb-7563-4fe7-8376-9c32628d83bf]     41:  <%= stylesheet_link_tag    'application' %>
+[b2770bcb-7563-4fe7-8376-9c32628d83bf]     42:  <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
+[b2770bcb-7563-4fe7-8376-9c32628d83bf]     43:  <link rel="stylesheet" type="text/css" href="/assets/slick-theme.css"/>
+[b2770bcb-7563-4fe7-8376-9c32628d83bf]     44:  <%= javascript_include_tag 'application', async: true %>
+F, [2021-04-16T06:45:08.196095 #19805] FATAL -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf]
+F, [2021-04-16T06:45:08.196137 #19805] FATAL -- : [b2770bcb-7563-4fe7-8376-9c32628d83bf] app/views/layouts/application.html.erb:41:in `_app_v$
+I, [2021-04-16T06:45:56.730333 #19805]  INFO -- : [a25c34bf-590e-444c-959f-a3e416f0d31a] Started GET "/" for 43.228.95.58 at 2021-04-16 06:45$
+I, [2021-04-16T06:45:56.731041 #19805]  INFO -- : [a25c34bf-590e-444c-959f-a3e416f0d31a] Processing by HomeController#index as HTML
+I, [2021-04-16T06:45:56.732165 #19805]  INFO -- : [a25c34bf-590e-444c-959f-a3e416f0d31a]   Rendering home/index.html.erb within layouts/appli
+I, [2021-04-16T06:45:56.731041 #19805]  INFO -- : [a25c34bf-590e-444c-959f-a3e416f0d31a] Processing by HomeController#index as HTML
+I, [2021-04-16T06:45:56.732165 #19805]  INFO -- : [a25c34bf-590e-444c-959f-a3e416f0d31a]   Rendering home/index.html.erb within layouts/appli$
+I, [2021-04-16T06:45:56.732590 #19805]  INFO -- : [a25c34bf-590e-444c-959f-a3e416f0d31a]   Rendered home/index.html.erb within layouts/applic$
+I, [2021-04-16T06:45:58.412043 #19805]  INFO -- : [a25c34bf-590e-444c-959f-a3e416f0d31a] Completed 500 Internal Server Error in 1681ms
+F, [2021-04-16T06:45:58.413076 #19805] FATAL -- : [a25c34bf-590e-444c-959f-a3e416f0d31a]
+F, [2021-04-16T06:45:58.413122 #19805] FATAL -- : [a25c34bf-590e-444c-959f-a3e416f0d31a] ActionView::Template::Error (Unexpected token: keywo$
+F, [2021-04-16T06:45:58.413294 #19805] FATAL -- : [a25c34bf-590e-444c-959f-a3e416f0d31a]     38:  <script src="/assets/script.js"></script>
+[a25c34bf-590e-444c-959f-a3e416f0d31a]     39:  <%= csrf_meta_tags %>
+[a25c34bf-590e-444c-959f-a3e416f0d31a]     40:  <%= csp_meta_tag %>
+[a25c34bf-590e-444c-959f-a3e416f0d31a]     41:  <%= stylesheet_link_tag    'application' %>
+[a25c34bf-590e-444c-959f-a3e416f0d31a]     42:  <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
+[a25c34bf-590e-444c-959f-a3e416f0d31a]     43:  <link rel="stylesheet" type="text/css" href="/assets/slick-theme.css"/>
+[a25c34bf-590e-444c-959f-a3e416f0d31a]     44:  <%= javascript_include_tag 'application', async: true %>
+F, [2021-04-16T06:45:58.413338 #19805] FATAL -- : [a25c34bf-590e-444c-959f-a3e416f0d31a]
+F, [2021-04-16T06:45:58.413368 #19805] FATAL -- : [a25c34bf-590e-444c-959f-a3e416f0d31a] app/views/layouts/application.html.erb:41:in `_app_v$
+I, [2021-04-16T06:47:38.077250 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3] Started GET "/" for 43.228.95.58 at 2021-04-16 06:47$
+I, [2021-04-16T06:47:38.081460 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3] Processing by HomeController#index as HTML
+I, [2021-04-16T06:47:38.097247 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3]   Rendering home/index.html.erb within layouts/appli$
+I, [2021-04-16T06:47:38.103804 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3]   Rendered home/index.html.erb within layouts/applic$
+I, [2021-04-16T06:47:58.633868 #20508]  INFO -- : [ecaeb5fd-c5cc-4d4c-a52e-20b10522bad7] Started GET "/" for 43.228.95.58 at 2021-04-16 06:47$
+I, [2021-04-16T06:47:58.636464 #20508]  INFO -- : [ecaeb5fd-c5cc-4d4c-a52e-20b10522bad7] Processing by HomeController#index as HTML
+I, [2021-04-16T06:47:58.661151 #20508]  INFO -- : [ecaeb5fd-c5cc-4d4c-a52e-20b10522bad7]   Rendering home/index.html.erb within layouts/appli$
+I, [2021-04-16T06:47:58.676514 #20508]  INFO -- : [ecaeb5fd-c5cc-4d4c-a52e-20b10522bad7]   Rendered home/index.html.erb within layouts/applic$
+I, [2021-04-16T06:47:59.629392 #20508]  INFO -- : [ecaeb5fd-c5cc-4d4c-a52e-20b10522bad7]   Rendered layouts/_header.html.erb (0.4ms)
+I, [2021-04-16T06:47:59.634511 #20508]  INFO -- : [ecaeb5fd-c5cc-4d4c-a52e-20b10522bad7]   Rendered layouts/_navigation.html.erb (0.4ms)
+I, [2021-04-16T06:47:59.635662 #20508]  INFO -- : [ecaeb5fd-c5cc-4d4c-a52e-20b10522bad7]   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2021-04-16T06:47:59.638485 #20508]  INFO -- : [ecaeb5fd-c5cc-4d4c-a52e-20b10522bad7] Completed 200 OK in 994ms (Views: 979.1ms)
+I, [2021-04-16T06:47:59.749714 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3]   Rendered layouts/_header.html.erb (0.3ms)
+I, [2021-04-16T06:47:59.750823 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3]   Rendered layouts/_navigation.html.erb (0.4ms)
+I, [2021-04-16T06:47:59.751884 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3]   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2021-04-16T06:47:59.752289 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3] Completed 200 OK in 21671ms (Views: 21656.6ms)
+I, [2021-04-16T06:47:59.751884 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3]   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2021-04-16T06:47:59.752289 #20391]  INFO -- : [cc10f8c0-1375-40e8-9443-3d95d5263af3] Completed 200 OK in 21671ms (Views: 21656.6ms)
+I, [2021-04-16T06:47:59.939694 #20391]  INFO -- : [0654d3e3-0f44-41d2-a0b3-1c8779a2e033] Started GET "/assets/script.js" for 43.228.95.58 at $
+I, [2021-04-16T06:48:01.333661 #20391]  INFO -- : [404ea71e-f9af-4c69-b9ee-e9cc0d0aac62] Started GET "/assets/slick.css" for 43.228.95.58 at $
+I, [2021-04-16T06:48:01.589698 #20391]  INFO -- : [f2584707-ec18-4c5d-a91b-26493a384fb8] Started GET "/assets/slick-theme.css" for 43.228.95.$
+I, [2021-04-16T06:48:01.876501 #20391]  INFO -- : [a68758e6-c4ac-4042-9b8b-f932f8e62a8e] Started GET "/assets/jquery.min.js" for 43.228.95.58$
+I, [2021-04-16T06:48:04.977272 #20391]  INFO -- : [d4e2d8f3-0fbf-4af2-861e-83367194e24b] Started GET "/assets/fontawesome-webfont.woff2?v=4.5$
+I, [2021-04-16T06:48:05.939972 #20391]  INFO -- : [50a24ba3-4746-4a2e-8e54-0289b599ede6] Started GET "/assets/eina03-bold-webfont.woff2" for $
+I, [2021-04-16T06:48:06.267076 #20391]  INFO -- : [a19d2088-5ce4-460d-ab76-8ff54bbc5311] Started GET "/assets/eina02-semibold-webfont.woff2" $
+I, [2021-04-16T06:48:06.421322 #20391]  INFO -- : [e047fea9-9e35-4609-a059-152180e85ff0] Started GET "/assets/eina02-regular-webfont.woff2" f$
+I, [2021-04-16T06:48:06.807967 #20391]  INFO -- : [de08790b-40fe-4ba3-8fb5-1cc3ba0d515c] Started GET "/assets/eina01-regular-webfont.woff2" f$
+I, [2021-04-16T06:48:06.899755 #20391]  INFO -- : [f9656b01-35b0-4ca1-8017-7136ba0e7a89] Started GET "/assets/eina02-bold-webfont.woff2" for $
+I, [2021-04-16T06:48:07.138801 #20391]  INFO -- : [12871092-7e50-4373-8ef7-0bd02f067dec] Started GET "/assets/slick.min.js" for 43.228.95.58 $
+I, [2021-04-16T06:48:08.125461 #20508]  INFO -- : [ec0b66d9-a482-4977-9fb3-a43fa7e611e9] Started GET "/assets/materialize.js" for 43.228.95.5$
+I, [2021-04-16T06:48:08.387247 #20561]  INFO -- : [cc2d38ea-0779-4e92-920d-55c5c16c3411] Started GET "/assets/wow.min.js" for 43.228.95.58 at$
+I, [2021-04-16T06:48:08.860461 #20391]  INFO -- : [314154f6-b450-49a8-8f13-d36df8a53a7b] Started GET "/assets/bootstrap.js" for 43.228.95.58 $
+I, [2021-04-16T06:48:09.105476 #20589]  INFO -- : [ae8c04c5-d263-44dd-a340-9579e674b719] Started GET "/assets/favicon.png" for 43.228.95.58 a$
+I, [2021-04-16T06:48:10.004979 #20589]  INFO -- : [b07912e1-ae5b-4507-971f-cd1176988f83] Started GET "/assets/slick.woff" for 43.228.95.58 at$
+I, [2021-04-16T06:48:10.247110 #20589]  INFO -- : [59585b2a-9382-49d7-8649-9c9d57c49715] Started GET "/assets/swiper.min.js" for 43.228.95.58$
+I, [2021-04-16T06:48:11.000118 #20626]  INFO -- : [0439fef6-e313-49e7-9951-4cd0f6eb49fa] Started GET "/assets/lightbox-plus-jquery.min.js" fo$
+I, [2021-04-16T06:48:11.311055 #20561]  INFO -- : [0817f83f-cacf-4051-8edb-07bff8d3ee2d] Started GET "/assets/jquery.responsiveTabs.js" for 4$
+I, [2021-04-16T06:48:14.238401 #20561]  INFO -- : [6141caeb-42e4-4858-af39-f98825be5d09] Started GET "/assets/numscroller-1.0.js" for 43.228.$
+I, [2021-04-16T06:48:15.980077 #20561]  INFO -- : [d77842c6-9118-4248-b01c-98699b919c18] Started GET "/assets/jquery.fancybox.js" for 43.228.$
+I, [2021-04-16T06:48:17.790350 #20391]  INFO -- : [f7ea7c4e-e9c2-4632-82ef-380411f83fcc] Started GET "/assets/testimonials_arrow.png" for 43.$
+I, [2021-04-16T06:48:18.032263 #20391]  INFO -- : [c5ecda22-5da3-4b1c-928f-d0a19029f759] Started GET "/assets/ajax-loader.gif" for 43.228.95.$
+I, [2021-04-16T06:48:18.034340 #20391]  INFO -- : [c5ecda22-5da3-4b1c-928f-d0a19029f759] Processing by HomeController#pagenotfound as GIF
+I, [2021-04-16T06:48:18.034484 #20391]  INFO -- : [c5ecda22-5da3-4b1c-928f-d0a19029f759]   Parameters: {"url"=>"assets/ajax-loader"}
+I, [2021-04-16T06:48:18.114542 #20391]  INFO -- : [c5ecda22-5da3-4b1c-928f-d0a19029f759] Completed 406 Not Acceptable in 80ms
+F, [2021-04-16T06:48:18.119071 #20391] FATAL -- : [c5ecda22-5da3-4b1c-928f-d0a19029f759]
+request.formats: ["image/gif"]
+request.variant: []):
+F, [2021-04-16T06:48:18.122324 #20391] FATAL -- : [c5ecda22-5da3-4b1c-928f-d0a19029f759]
+F, [2021-04-16T06:48:18.122459 #20391] FATAL -- : [c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/impli$
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/etag.rb:25:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/head.rb:12:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] actionpack (5.2.2) lib/action_dispatch/middleware/ssl.rb:74:in `call'
+[c5ecda22-5da3-4b1c-928f-d0a19029f759] railties (5.2.2) lib/rails/engine.rb:524:in `call'
+I, [2021-04-16T06:49:31.620494 #20508]  INFO -- : [94d97fe0-3ecf-4a44-9983-8b842c0222cb] Started GET "/assets/slick.min.js" for 43.228.95.58 $
+I, [2021-04-16T06:49:31.624589 #20391]  INFO -- : [42f90a1d-1c4f-4c8a-b4cf-8ba91bc5718d] Started GET "/assets/jquery.min.js" for 43.228.95.58$
+I, [2021-04-16T06:49:32.448221 #20391]  INFO -- : [5bc968e1-76b3-4183-a238-67c2b56f4361] Started GET "/assets/eina03-bold-webfont.woff2" for $
+I, [2021-04-16T06:49:33.232143 #20391]  INFO -- : [5f172674-c9c4-4ca1-afe0-f6a79b1817ad] Started GET "/assets/eina02-semibold-webfont.woff2" $
+I, [2021-04-16T06:49:33.341700 #20391]  INFO -- : [ed6a47d6-53ad-4a2b-ad51-328135b4e74f] Started GET "/assets/eina02-regular-webfont.woff2" f$
+I, [2021-04-16T06:49:33.597377 #20508]  INFO -- : [6f4c74b0-63bf-43d8-9e34-bcf155484016] Started GET "/assets/eina01-regular-webfont.woff2" f$
+I, [2021-04-16T06:49:33.599335 #20391]  INFO -- : [fad83ce6-8d84-46e5-9209-deea9a6d7544] Started GET "/assets/fontawesome-webfont.woff2?v=4.5$
+I, [2021-04-16T06:49:34.119393 #20508]  INFO -- : [ed6893bc-377f-4ba1-ada1-93821354afa1] Started GET "/assets/eina02-bold-webfont.woff2" for $
+I, [2021-04-16T06:49:34.121468 #20391]  INFO -- : [959f2849-f9b7-48ca-b6ec-376e2a498519] Started GET "/assets/slick.woff" for 43.228.95.58 at$
+I, [2021-04-16T06:49:34.622741 #20391]  INFO -- : [d944fa15-3d08-4890-853f-120218784d4a] Started GET "/assets/favicon.png" for 43.228.95.58 a$
+I, [2021-04-16T06:49:34.877923 #20391]  INFO -- : [ca61a586-d22a-40c5-b12c-b0fa0540dc30] Started GET "/assets/bootstrap.js" for 43.228.95.58 $
+I, [2021-04-16T06:49:35.116478 #20391]  INFO -- : [0cf090e8-4a2b-47ae-9ca8-db24e1b78fc0] Started GET "/assets/materialize.js" for 43.228.95.5$
+I, [2021-04-16T06:49:35.600836 #20391]  INFO -- : [d5c977ea-dbb2-43c1-8fda-337e3928c8c4] Started GET "/assets/wow.min.js" for 43.228.95.58 at$
+I, [2021-04-16T06:49:35.914432 #20391]  INFO -- : [09564689-09e5-4bcf-b67b-7fbc7e965412] Started GET "/assets/swiper.min.js" for 43.228.95.58$
+I, [2021-04-16T06:49:36.153864 #20391]  INFO -- : [b84aafff-30ca-4e46-ae91-07334b44df6e] Started GET "/assets/lightbox-plus-jquery.min.js" fo$
+I, [2021-04-16T06:49:36.625475 #20391]  INFO -- : [206f0b01-64ab-43e0-a589-a46fbb54b48a] Started GET "/assets/jquery.responsiveTabs.js" for 4$
+I, [2021-04-16T06:49:36.860600 #20391]  INFO -- : [e1070d3f-285b-4600-9bd5-437fe7d5db09] Started GET "/assets/numscroller-1.0.js" for 43.228.$
+I, [2021-04-16T06:49:37.096038 #20391]  INFO -- : [c766115e-7141-4a8e-b18f-d75dfec15889] Started GET "/assets/jquery.fancybox.js" for 43.228.$
+I, [2021-04-16T06:49:37.336007 #20391]  INFO -- : [8796793f-d4f5-42f9-b679-c9bd3ad78ccc] Started GET "/assets/testimonials_arrow.png" for 43.$
+I, [2021-04-16T06:49:37.567576 #20391]  INFO -- : [b3a0dde6-e876-4bb8-9421-42da457b0ed4] Started GET "/assets/ajax-loader.gif" for 43.228.95.$
+I, [2021-04-16T06:49:37.569325 #20391]  INFO -- : [b3a0dde6-e876-4bb8-9421-42da457b0ed4] Processing by HomeController#pagenotfound as GIF
+I, [2021-04-16T06:49:37.569447 #20391]  INFO -- : [b3a0dde6-e876-4bb8-9421-42da457b0ed4]   Parameters: {"url"=>"assets/ajax-loader"}
+I, [2021-04-16T06:49:37.570271 #20391]  INFO -- : [b3a0dde6-e876-4bb8-9421-42da457b0ed4] Completed 406 Not Acceptable in 1ms
+F, [2021-04-16T06:49:37.571692 #20391] FATAL -- : [b3a0dde6-e876-4bb8-9421-42da457b0ed4]
+F, [2021-04-16T06:49:37.571806 #20391] FATAL -- : [b3a0dde6-e876-4bb8-9421-42da457b0ed4] ActionController::UnknownFormat (HomeController#page$
