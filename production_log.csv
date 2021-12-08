@@ -1,3 +1,4 @@
+A,timestamp regexp,method
 D, [2021-04-16T06:20:20.333347 #1422] DEBUG -- :   ^[[1m^[[35m (1.8ms)^[[0m  ^[[1m^[[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@$
 D, [2021-04-16T06:20:20.333964 #1422] DEBUG -- :   ^[[1m^[[35m (0.2ms)^[[0m  ^[[1m^[[35mCREATE DATABASE `entersoft_website_production` DEFAUL$
 D, [2021-04-16T06:20:52.949142 #1432] DEBUG -- :   ^[[1m^[[35m (0.3ms)^[[0m  ^[[1m^[[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@$
